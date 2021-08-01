@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Tabla con CSS DENTRO del codigo de HTML</title>
+<style>
+
+table#mitabla {border-collapse: collapse;}
+td.bajo {background-color: #ff455e;}
+td.medio {background-color: #d63e3e;}
+td.alto {background-color: #940014;}
+td.a {background-color: #243ff0;}
+td.b {background-color: #1726cf;}
+td.c {background-color: #100085;}
+
+td.aaa {background-color: #f8ff94;}
+td.bbb {background-color: #fff64f;}
+td.ccc {background-color: #ffff00;}
+
+thead.cabecera tr td {
+  font-fomily: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px;}
+
+tfoot.pie tr td {
+  font-size: 18px;
+  font-weight: bold;
+  font-fomily: Georgia;
+  padding: 2px;}
+
+tbody.cuerpo tr td {
+  color: #ebebeb;
+  padding: 10px;}
+
+td {border-style: solid;
+    border-color: #cccccc;
+    border-width: 2px;}
+</style>
+
+</head>
+
+<body>
+
+<h1>Listado de clases</h1>
+<table id="mitabla">
+
+
+<thead class="cabecera">
+<tr class="rojo">
+<td class="bajo">Clases</td>
+<td class="medio">Horas</td>
+<td class="alto">Horario</td>
+</tr>
+</thead>
+
+<tbody class="cuerpo">
+<tr>
+<td class="a">Diseño Web II </td>
+<td class="b">6</td>
+<td class="c"> 8:00 - 12:00 </td>
+</tr>
+
+<tr>
+<td class="a">Manteniendo y Reparacion</td>
+<td class="b">6</td>
+<td class="c">8:00 - 12:00</td>
+</tr>
+
+<tr>
+<td class="a">Redes de Informática II</td>
+<td class="b">6</td>
+<td class="c">8:00 - 12:00</td>
+</tr>
+
+<tr>
+<td class="a">Programación IV</td>
+<td class="b">6</td>
+<td class="c">8:00 - 12:00</td>
+</tr>
+
+<tr>
+<td class="a">Laboratorio de Informática IV</td>
+<td class="b">6</td>
+<td class="c">8:00 - 12:00</td>
+</tr>
+
+<tbody>
+
+<tfoot class="pie">
+<tr>
+<td class="aaa">Estas son las Clases del Segundo Semestre <sub>2021</sub></td>
+<td class="bbb" colspan="2">Estas son las Clases del Segundo Semestre<sup>2020</sup></td>
+</tr>
+</tfoot>
+</table>
+<div id="pie">
+<div id="centro-pie">
+<p>
+Derechos reservados Dise&ntilde;ado por <a href="mailto: clases.iher.12btp@gmail.com" class="email"> Exi Jamileth Nu&ntilde;ez Caceres 12vo Inform&aacute;tica secci&oacute;n 2 a&ntilde;o</a> 2021
+</p>
+</div>
+</body>
+</html>
+
